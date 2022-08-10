@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cursive {
+    font-family: 'redressed', cursive;
+}
+.merriweather {
+    font-family: 'merriweather', serif; 
+}
+
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0, 0, 5px blue;
+}
+.h1 {
+    text-align: center;
+    color: aqua;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.html {
+    scroll-behavior: smooth;
+}
+
+.padcam-navbar {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-family: 'merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.padcam-navbar .narv-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 03s ease-in-out, border-color 02s ease;
+    }
+
+.padcam-navbar .narv-link:hover,
+.narv-link:active{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../projetfinal/img/periode\ hotmonage.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.benner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+.prerequis{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../projetfinal/img/ananas\ récolte.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+.prerequis .prerequis-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.contact{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../projetfinal/img/pineapple-g8fcdab76b_1920.jpg') center center fixed no-repeat;
+    background-size: 1200pt;
+    height: 600px;
+
+}
+.prerequis .contact-desc{
+    font-size: 48px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.padcam.menu {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../projetfinal/img/ananas\ récolte.jpeg') center center fixed no-repeat;
+    background-size: cover;
+    height: 400px;
+
+}
+
+.btn-order {
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: 02s;
+}
+
+.btn-order:hover,
+.btn-order:active {
+    color: #fff;
+    background: var(--bs-teal);
+}
+
+.body{
+    background-color:rgba(255, 255, 255, 0.54);
+    flex-direction: column;
+    font-family: Arial, cursive, sans-serif;
+    height: 100vh;
+    display: flex;
+    background: #fdfcfc;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0, 0, 5px blue;
+
+}
+
+/*footer*/
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,600;0,700;1,200;1,300;1,400;1,600 & display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif ;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+    background-color:rgb(116, 116, 115);
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul {
+    list-style: none;
+}
+.footer {
+    background-color: #24262b;
+    padding: 0 70px 0;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500px;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #dd0606;
+    height: 2px;
+    box-sizing: border-box;
+    width: 40px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: rgba(255, 255, 255, 0.931);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 60%;
+    color: #3807fa;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: violet;
+}
+/* responsiveù*/
+@media(max-width): 767px
+.footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+
+}
+@media(max-width): 574px
+.footer-col {
+    width: 100%
+    
+}
